@@ -1,13 +1,17 @@
 # observational-causal-inference-simulation
 simulating different (observational) causal inference concepts
 
-The intention is mostly for self-learning - these are some of the methods that I've studied for work-related projects because a lot of people agree that simulating data and playing with the results yourself is an important complement to reading the available literature, and I think this is especially important for observational causal inference projects due to its delicate nature. Posting it publicly of-course helps induce a heightened feeling of accountability (perhaps artificial) as well as inviting feedback, another great way to learn. 
+The order of publish for these notebooks demonstrate the coincidental path that I took in my causal inference journey (although not all steps are mentioned).
 
 So far the topics covered are:
-- Matching methods
+- Matching / Weighting methods (e.g., Coarsened Exact Matching, Entropy Balancing, Propensity Score Weighting)
 - Sensitivity Analysis (for cross-sectional data)
 - Panel methods
 - DAGs
 - Exploring a claimed diagnostic method called "Backwards Causality" and A/A Testing
 - Taking notes on the `DoWhy` Python package
+- Instrumental Variables
+- Double / Debiased Machine Learning
+
+If I were to go back in time, I would probably want to start differently and save a lot of time. Notably, I would want to focus a lot of my efforts on Double / Debiased ML. 
 
